@@ -29,3 +29,21 @@ body{
         width: 100%;
         border-top: solid black 3px;
     }
+    #dropdownMenuButton{
+        background-color: white;
+        font-size: 10px;  
+        width: 200%;  
+        border: solid black 2px; 
+        text-align: left; 
+        padding: 0; 
+        color: black; 
+        font-weight: bold;
+    }
+    .dropdown-toggle::after{
+color: white;
+}
+.fa-caret{
+    color: black;
+}
+ 
+

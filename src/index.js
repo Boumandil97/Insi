@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Loginn from "./Components/Login";
+// import Loginn from "./Components/Login";
 // import Navbar from './Components/nav-bar'
-// import Header from './Components/header';
+import Header from './Components/header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Loginn/>
+    <Header/>
   </React.StrictMode>
 );
 

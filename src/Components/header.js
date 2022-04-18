@@ -8,7 +8,9 @@ return(
     <div class='header'>
         <div id="firstRow">
             <div id="dropdownLists">
-                <button class='btn btn-secondary dropdown-toggle' id="dropdownMenuButton" type="button" data-toggle='dropdown' aria-haspopup="true" aria-expanded="false">Customer</button>
+                <button  class='btn btn-secondary dropdown-toggle' id="dropdownMenuButton" type="button" data-toggle='dropdown' aria-haspopup="false" aria-expanded="true">Customer
+                <i class='fa fa-caret'></i>
+                </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Action</a>
 
