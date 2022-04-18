@@ -1,5 +1,31 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    
 }
+.header{
+    margin: auto;
+    width: 60%;
+    height:10em;
+    background-color: #6f6d6d44;
+    border: solid black 2px;;
+    display: flex;
+    flex-direction: column;
+    }
+    #firstRow{
+        height: 25%;
+        width: 100%;
+        border-top: solid black 3px;
+        display: flex;
+        flex-direction: row;
+    }
+    #secondRow{
+        height: 25%;
+        width: 100%;
+        border-top: solid black 3px;
+    }
+    #thirdRow{
+        height: 50%;
+        width: 100%;
+        border-top: solid black 3px;
+    }
