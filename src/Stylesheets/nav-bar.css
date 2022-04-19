@@ -4,21 +4,30 @@ body{
     display: block;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
+    overflow-y: hidden;
    
 }
 #navbar-items{
     background-image: linear-gradient(180deg, #1B3255, #1C4582);
-    height:100%;
-    width: 15%;
+    height:88vh;
+    width: fit-content;
     /* border: solid black 1px; */
 }
+#navbar-container{
+    /* border: solid black 2px; */
+    width: fit-content;
+}
 #logofield{
+    margin: auto;
+    
 background-color: white;
-width: 15%;
-height: 6.5em;
+width: fit-content;
+height: 12vh;
+
 /* margin: 100; */
-border: solid white 0.5px;
+/* border: solid black 0.5px; */
+
 }
 #logo{
     border:#1C4582 solid 2px;
@@ -71,6 +80,8 @@ border: solid white 0.5px;
     text-align: left;
     border: 0;
     margin: 0px;
+    font-weight: bolder;
+    
 }
 .button:hover{
     background-image:  linear-gradient(10deg, #ffffff, #1C4582);

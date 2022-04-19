@@ -20,6 +20,19 @@ body{
         display: flex;
         flex-direction: row;
     }
+
+    #dropdownLists{
+        width: 40%;
+    /* border: solid black 2px; */
+    }
+    #searchbarAndLogos{
+        display: flex;
+        flex-direction: row;
+        /* border: solid black 2px; */
+        margin-left: 5%;
+        width: 55%;
+    }
+
     #secondRow{
         height: 25%;
         width: 100%;
@@ -33,18 +46,75 @@ body{
     #dropdownMenuButton{
         background-color: white;
         font-size: 10px;  
-        width: 200%;  
+        width: 32%;
         border: solid black 2px; 
         text-align: left; 
         padding: 0; 
         color: black; 
         font-weight: bold;
+        margin-left: 4%;
+        margin-right:4%;
+        height: 80%;
+        border-radius: 7px;
     }
-    .dropdown-toggle::after{
+.dropdown-toggle::after{
+min-width: -200px;
 /* color: white; */
+width: -10px;
+text-align: center;
+border-radius:20px;
 }
 .fa-caret{
     color: black;
 }
+.searchbar{
+    width:27%;
+    background-color: white;
+    border-radius: 40px;
+    margin-right: 3%;
+}
+.icon{
+    
+    border: none;
+    color:#3D6DA5;
+    float: right;
+    width: 30%;
+    font-size: 1.3rem;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: #2f3640; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+#search-input{
+
+    width: 0;
+    border: none;
+    outline: none;
+    padding: 0;
+    background: none;
+    font-size: 1.1rem;
+    transition: 0.5s ease;
+    line-height: 30px;
+    color: #fff;
+   
+}
+.icons{
+    border: solid black 2px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icons-div{
+ font-size: 25px;  
+ color: #27559A; 
+}
+
+
  
 

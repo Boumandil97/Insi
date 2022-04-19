@@ -4,11 +4,13 @@ import '../Stylesheets/nav-bar.css'
 const navbar=()=>{
     return(
         <div id='navbar'>
+          <div id='navbar-container'>
                 <div id='logofield'>
                     <div id='logo'>
                             <h1>INSI</h1>
                     </div>
                 </div>
+                
                 <div id='navbar-items'>
                   <h4 class='headings'>
                     Settings
@@ -44,6 +46,7 @@ const navbar=()=>{
                           <input type='button' value='Checks'class='button'/>
                           <input type='button' value="KPI's"class='button'/>
                         </div> 
+                </div>
                 </div>
         </div>
     );
