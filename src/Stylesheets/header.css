@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     
+    
 }
 .header{
     margin: auto;
@@ -40,7 +41,7 @@ body{
         font-weight: bold;
     }
     .dropdown-toggle::after{
-color: white;
+/* color: white; */
 }
 .fa-caret{
     color: black;
