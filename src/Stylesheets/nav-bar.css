@@ -1,29 +1,39 @@
+
 body{
     overflow: none;
-    background-color: antiquewhite;
+    background-color: white;
     display: block;
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
    
-}
-#navbar-items{
-    background-image: linear-gradient(180deg, #1B3255, #1C4582);
-    height:88vh;
-    width: fit-content;
-    /* border: solid black 1px; */
 }
 #navbar-container{
     /* border: solid black 2px; */
-    width: fit-content;
+    height: 100vh;
+    /* width: fit-content; */
 }
+#navbar-items{
+    background-image: linear-gradient(180deg, #1B3255, #1C4582);
+    height:84vh;
+    width: fit-content;
+    /* border: solid green 4px; */
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar{
+    width: 21px;
+}
+body::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
 #logofield{
-    margin: auto;
-    
+margin: auto;   
 background-color: white;
 width: fit-content;
-height: 12vh;
+height: 16vh;
 
 /* margin: 100; */
 /* border: solid black 0.5px; */
@@ -60,27 +70,32 @@ height: 12vh;
     /* border: red solid 3px; */
     margin: 0 auto;
     background-image:linear-gradient(10deg, #D7EAF4, #9AC1D6);
-    height: 30px;
+    height: 4vh;
     padding-left: 10px;
+    font-size: medium;
+    font-weight: bold;
+    vertical-align: middle;
     
 }
 .buttons{
     width: 100%;
+    height: 19vh;
     /* border: solid black 3px; */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column;
 }
 .button{
     display: block;
     width: 100%;
-    height: 30px;
+    height: 4.75vh;
     background-image:linear-gradient(10deg, #1B3255, #1C4582);
     color:white;
     text-align: left;
     border: 0;
     margin: 0px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    font-size: medium;
     
 }
 .button:hover{

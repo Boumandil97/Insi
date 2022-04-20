@@ -21,7 +21,7 @@ const navbar=()=>{
                           <input type='button' value='Add New +'class='button'/>
                           </div> 
                     <h4 class='headings'>
-                    Settings
+                    Inputs
                       </h4>   
                       <div class='buttons'>
                           <input type='button' value='Trial Balance' class='button'/>
@@ -30,7 +30,7 @@ const navbar=()=>{
                         </div> 
 
                         <h4 class='headings'>
-                    Settings
+                    Reports
                       </h4>   
                       <div class='buttons'>
                           <input type='button' value='Title' class='button'/>
